@@ -1,0 +1,39 @@
+<html>
+<head>
+	<link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+	<link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+	<link rel="stylesheet" href="js/project_specific.css">
+	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/project_specific.js"></script>
+	<script type="text/javascript" src="js/properties.js"></script>
+<script type="text/javascript">
+	   var viewportWidth = window.innerWidth;//$("#bodyId").outerHeight();
+       var viewportHeight = window.innerHeight;
+	   $(document).ready(function(){
+		// $('#tabsId').append(addTabs());
+		addTabs();
+	   $(".tabsIn").click(function(){
+		//    debugger;
+		//    var myIframe = $("#iframeId").contents.find('body');
+		   if(this.id == "one"){
+			   console.log("Thsi sis one ....");
+			   $("#accorDiv").load("chapter1_en.htm");
+			  // $(document.getElementById("accorDiv")).animate({width: 'toggle'});
+		   }
+	});
+});
+</script>	
+</head>
+<body id="bodyId" class="disableScroll" >
+<!-- <input type="button" name = "SlideIn" value = "Slide In" id="slidein" > -->
+<div class="headerDiv"><h1>Header Section</h1></div>
+<div class="contentDiv" style="overflow:auto;">
+	
+	<div id="tabsId" ></div>
+	<div id="accorDiv"></div>
+</div> 
+<div class = "footerDiv"><h1>Footer section</h1></div>
+</body>
+
+</html>

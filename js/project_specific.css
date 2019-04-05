@@ -1,0 +1,77 @@
+body{
+	background-color:red;
+}
+.disableScroll{
+	overflow-y:hidden;
+	overflow-x:hidden;
+}
+h1{
+	text-decoration-color: azure;
+	
+}
+.headerDiv{
+	position:fixed;
+	left:0px;
+	top: 0px;
+	height:10%;
+	width:100%;
+	background:#999;
+}
+.footerDiv {
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:10%;
+	width:100%;
+	background:#999;
+ }
+ .contentDiv{
+	 /* position: fixed; */
+	 height: 80%;
+	 padding-top: 5%;
+ }
+#iframeId{
+	float: right;
+    margin-right: 5%;
+	width:40%; 
+	height: 90%;
+	-webkit-transition: width 2s;
+  	transition: width 2s;
+}
+button.tabs{
+	align-content: right;
+}
+
+#firstDiv{
+	justify-content: bottom;
+	border-color: black;
+	border: 2px;
+}
+div#tabsId{
+	width: 5%;
+	display: inline-block;
+	/* position: absolute; */
+    /* right: 0; */
+}
+a.tabsIn{
+	background: white;
+    margin: 1px;
+    padding: 5px 5px 10px 10px;
+    height: 30px;
+	text-align: center;
+	writing-mode: vertical-lr;
+	text-orientation: mixed;
+	border-radius: 0px 15px 15px 0px;
+	border-color: blue;
+}
+#accorDiv{
+	float: right;
+    margin-right: 5%;
+	width:90%; 
+	height: 90%;
+	background: white;
+	display: inline-block;
+	/* border: 2px; */
+	/* border-color: blue; */
+
+}

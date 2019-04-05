@@ -1,0 +1,2 @@
+var tab_array = ["one","two","three","four","five","six","seven","eight","nine","ten","eleven","Twelve","Thirteen","Fourteen","Fifteen","Sixteen","Seventeen","Eighteen"];
+var tabN_Array = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18"];

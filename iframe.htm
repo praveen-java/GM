@@ -1,0 +1,112 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.min.css">
+            <link rel="stylesheet" href="js/jquery-ui-1.12.1/jquery-ui.theme.min.css">
+            <link rel="stylesheet" href="js/project_specific.css">
+            <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+            <script type="text/javascript" src="js/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+            <script type="text/javascript">
+                        
+                        var count = 1;
+                        function appendText() {
+                            var txt1 = `<h3 class="ui-accordion-header ui-accordion-header-collapsed ui-accordion-header-icon">Section ${++count}</h3>`;
+                            var text = "sdfjsdfjsdf";
+                            var ptxt = `<p>${text}</p>`;
+                            var ptxt1 = $("<p></p>").text("This is the text....");               // Create element with HTML 
+                            var txt2 = `<div class="ui-accordion-content">${ptxt}</div>`;
+                            var txt = $("<div></div>").append(ptxt);   // Create with jQuery
+                            console.log(txt1+"   "+ptxt+"   "+txt2);
+                            $("#accordion").append(txt1, txt2);      // Append the new elements
+                            $('#accordion').accordion("refresh");
+                        }
+                    $(document).ready(function(){              
+                    $( function() {
+                        $( "#accordion" ).accordion();
+                    } );
+                    document.getElementById("firstDiv").style.height = window.innerHeight * 0.9;
+                    console.log(window.innerHeight+" this is window.innerHeight");    
+                    });
+            </script>        
+    </head>
+<body>
+    <div name = "firstDiv" id="firstDiv">
+        <div id = "accordion" >
+                <h3  onclick="loadHtmlFile('chapter/chapter1_en.htm',this)" >Chapter 1: Visada Yoga</h3>
+                <div onclick="loadHtmlFile('./chapter/chapter1_en.htm')"> 
+                    <p>The first chapter is where you regret and say, “I am powerless and I give up”.</p>
+                </div>
+                <h3>Chapter 2: Sankhya Yoga</h3>
+                <div> 
+                    <p>The second chapter in your life is when someone wakes you up and says, “Hey come on! There’s nothing to regret in life. There is something in you that doesn’t change and you have the power to sail over all this”. Then you wake up and you felt good.</p>
+                </div>
+                <h3>Chapter 3: Karma Yoga</h3>
+                <div> 
+                    <p>The third chapter tells you to act. Don’t sit and worry, ‘What about me? What about me? ?’ Go and act, this isKarma Yoga.</p>
+                </div>
+                <h3>Chapter 4: Jnana Yoga</h3>
+                <div> 
+                    <p>The fourth chapter tells you, now that you are acting you must also listen to knowledge. Don’t become like a machine and only act, listen to knowledge as well . There is something beyond all this.</p>
+                </div>
+                <h3>Chapter 5: Karma Vairagya Yoga</h3>
+                <div> 
+                    <p>The fifth chapter tells you about material and spiritual knowledge. You cannot say, “Everything is being done and there is nothing for me to do”, or you cannot think, “I am doing everything. I did this and I did that”. This is not going to work for you. Wake up and see, are things happening or are you really doing it?.</p>
+                </div>
+                <h3>Chapter 6: Abhyasa Yoga</h3>
+                <div> 
+                    <p>Then the sixth chapter is when you learn to meditate.</p>
+                </div>
+                <h3>Chapter 7: Paramahamsa Vijnana Yoga</h3>
+                <div> 
+                    <p>The seventh chapter tells you, now that you’re meditating, you should know the author of meditation and the one who is meditating in you. ‘Who am I? What is time?’ Knowing all about science..</p>
+                </div>
+                <h3>Chapter 8</h3>
+                <div> 
+                    <p>This is the first section..</p>
+                </div>
+                <h3>Chapter 9</h3>
+                <div> 
+                    <p>This is the first section..</p>
+                </div>
+                <h3>Chapter 10: Vibhuti-Vistara-Yoga</h3>
+                <div> 
+                    <p>Like that it goes on! When you meditate miracles happen in your life. Wake up and see the miracles! Many don’t observe miracles, nor believe in it. If you recognize it and believe in it then it happens even more! Give a chance for miracles to happen, don’t be so steeped in the material cause and effect — ‘I did this so this will happen’, or ‘I did that and only that will happen’, no! You did it but something else can also happen out of the blue! Recognizing that ‘something different’ is Vibhuti. Vibhuti means giving a chance for miracles in your life, exploring it.</p>
+                </div>
+                <h3>Chapter 11: Visvarupa-Darsana Yoga</h3>
+                <div> 
+                    <p>Then after that is knowing the universal self and knowing that everything is in me and I am in everything.</p>
+                </div>
+                <h3>Chapter 12: Bhakti Yoga</h3>
+                <div> 
+                    <p>Then comes love and devotion. You know and understand all this, but then what? It is not enough. You should be in deep love! When you know that the divine loves you, you cannot but fall in love with divine!That’s the 12th chapter.</p>
+                </div>
+                <h3>Chapter 13: Ksetra-Ksetrajna Vibhaga Yoga</h3>
+                <div> 
+                    <p>Then you understand what are the divine qualities and what are the demonic qualities and you realize that you have all the divine qualities in you.</p>
+                </div>
+                <h3>Chapter 14: Gunatraya-Vibhaga Yoga</h3>
+                <div> 
+                    <p>Then there are the three qualities or Gunas (Sattvic, Rajasic and Tamasic) to everything: mind, ego and food. Sattavic ego is, “I am everything and everybody”. The Tamasic ego is knowing that you are only this body, and the Rajasic ego is having a limited mindset and falling into craving and aversion.</p>
+                </div>
+                <h3>Chapter 15</h3>
+                <div> 
+                    <p>This is the first section..</p>
+                </div>
+                <h3>Chapter 16</h3>
+                <div> 
+                    <p>This is the first section..</p>
+                </div>
+                <h3>Chapter 17</h3>
+                <div> 
+                    <p>This is the first section..</p>
+                </div>
+                <h3>Chapter 18: Moksa-Opadesa Yoga</h3>
+                <div> 
+                    <p>The final chapter is knowing that you cannot wash your own sins. Drop them and understand what is being said, “I am here to take care of your sins. Feel that you are mine, be connected to me and I will take care of everything. Just relax!’.</p>
+                </div>
+               
+        </div>
+    </div>
+    
+   <!-- <div id="secondDiv"><a onclick="appendText()" id="addAccord" ><strong>+</strong></a></div> -->
+</body>
+</html>
